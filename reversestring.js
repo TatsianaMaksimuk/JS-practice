@@ -13,5 +13,3 @@ function reverseString(str) {
     return result;
 }
 
-const result = reverseString("hello");
-console.log(result);
