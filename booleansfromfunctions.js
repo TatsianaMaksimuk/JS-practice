@@ -30,4 +30,16 @@ function isLess1(a, b) {
     return a < b
 }
 
+function compare(a,b) {
+    if (isLess(a,b)) {
+        return -1;
+    }
+    else if (isEqual(a, b)) {
+        return 0;
+    }
+    else return 1;
+}
+
 console.log(isLess(10, 15), isLess1(15, 10))
+
+console.log(compare(5,10))
