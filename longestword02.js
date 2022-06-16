@@ -8,7 +8,6 @@ function findLongestWordLength(str) {
         else {
             if (currentWordLength > longestWordLength) {
                 longestWordLength = currentWordLength
-                
             }
             currentWordLength = 0
         }
