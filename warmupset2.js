@@ -29,6 +29,8 @@ function higherNumCheck (arr, n){
 console.log(higherNumCheck([5, 3, 15, 22, 4], 10))
 console.log(higherNumCheck([1, 2, 3, 4, 5], 8))
 
+
+//Ex.4 Count Vowels
 function countVowels (word){
 let count = 0
 let vowels = ["a", "e", "i", "o", "u" ]
